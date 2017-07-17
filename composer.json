@@ -1,11 +1,13 @@
 {
     "name": "apikr/skplanet-tmap",
+    "require": {
+        "php": ">=5.6",
+        "apikr/api": "^0.6",
+        "guzzlehttp/guzzle": "^6.2"
+    },
     "autoload": {
         "psr-4": {
             "Apikr\\SKPlanet\\TMap\\": ""
         }
-    },
-    "require": {
-        "guzzlehttp/guzzle": "^6.2"
     }
 }
